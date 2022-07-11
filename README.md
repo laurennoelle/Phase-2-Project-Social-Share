@@ -4,13 +4,11 @@ Social Share is a social media platform that lets the user interact and connect 
 
 Users will be able to:
 
-* Landing page: sign up/log into the platform
-* Signup page: collect basic information and store it into the API to create a user account
-* Login page: log into their personal profile
-* Profile page: create a personal profile with basic information that displays a list of friends they've invited and ones that have accepted the invites - showing all details
-* send a friend invite
-* accept a friend invite
-* filter through a search bar to find friends
+* Landing page: sign up/log into the platform 
+* Signup page: collect basic information (_name_, _photo_, _location_, _birthday_) and store it into the API to create a user account
+* Login page: log into their personal profile using a _username_ and _password_
+* Profile page: displays a personal profile with basic information that displays a list of friends they've invited and ones that have accepted the invites - showing all details
+
 
 Technologies used: Our frontend was built with React.js and communicates with our json-server in our backend
 
@@ -28,6 +26,12 @@ professional work environment:
 * use at least 3 client-side routes using React Router
 * create a json-server to create a RESTful API and make both a GET and a POST request
 * utilize UI for our CSS styling
+
+### Stretch Goals
+
+* send a friend invite
+* accept a friend invite
+* filter through a search bar to find friends
 
 ## Expected Accomplishments 
 
