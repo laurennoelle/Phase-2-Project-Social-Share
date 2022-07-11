@@ -4,10 +4,10 @@ Social Share is a social media platform that lets the user interact and connect 
 
 Users will be able to:
 
-* sign up/create an account for the platform
-* collect basic information and store it into the API
-* log into their personal profile
-* create a personal profile with basic information that displays a list of friends they've invited and ones that have accepted the invites - showing all details
+* Landing page: sign up/log into the platform
+* Signup page: collect basic information and store it into the API to create a user account
+* Login page: log into their personal profile
+* Profile page: create a personal profile with basic information that displays a list of friends they've invited and ones that have accepted the invites - showing all details
 * send a friend invite
 * accept a friend invite
 * filter through a search bar to find friends
@@ -40,7 +40,7 @@ professional work environment:
 
 ## Challenges We Expect to Face
 
-* incorporating client-side routing: organizing our components with the routes from the very beginning?
+* incorporating client-side routing: organizing our components with the routes from the very beginning
 
 ## Available Scripts
 Fork and clone [our frontend repository] onto your local environment:  
