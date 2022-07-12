@@ -45,6 +45,7 @@ professional work environment:
 ## Challenges We Expect to Face
 
 * incorporating client-side routing: organizing our components with the routes from the very beginning
+* trying to implement a Web Hook
 
 ## Available Scripts
 Fork and clone [our frontend repository] onto your local environment:  
@@ -71,4 +72,4 @@ Creators
 ---
 Lauren Erxleben [Github](https://github.com/laurennoelle)  [Linkedin](www.linkedin.com/in/lauren-erxleben) 
 
-Christopher Babb [Github]()  [Linkedin]() 
+Christopher Babb [Github]()  [Linkedin](https://www.linkedin.com/in/christopher-babb-9a9051180/) 
