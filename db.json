@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "some@email.com",
+      "username": "johndoe",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthdayMonth": 5,
+      "birthdayDay": 15,
+      "birthdayYear": 1980,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "friends": [
+          {
+              "friendUsername": "homersimpson",
+              "requestSent": false,
+              "requestRecieved": false,
+              "currentFriend": true
+          }
+      ],
+      "posts": [
+          {
+              "postTitle": "Post title for first post",
+              "postBody": "This is some stuff that would go into a post",
+              "postDate": "7/13/2022"
+          },
+          {
+              "postTitle": "Post title for second post",
+              "postBody": "This is more stuff that would probably go into a post",
+              "postDate": "7/13/2022"
+          }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "another@email.com",
+      "username": "homersimpson",
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "birthdayMonth": 2,
+      "birthdayDay": 25,
+      "birthdayYear": 1984,
+      "avatar": "https://static.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20201222215437",
+      "friends": [
+          {
+              "friendUsername": "johndoe",
+              "requestSent": false,
+              "requestRecieved": false,
+              "currentFriend": true
+          }
+      ],
+      "posts": [
+          {
+              "postTitle": "This post was made by Homer",
+              "postBody": "I love doughnuts, like seriously...",
+              "postDate": "7/13/2022"
+          },
+          {
+              "postTitle": "Life in Springfield is just okay",
+              "postBody": "Too bad I have to work at the power plant",
+              "postDate": "7/13/2022"
+          }
+      ]
+    }
+  ]
+}
