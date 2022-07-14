@@ -2,7 +2,11 @@ import React from 'react'
 
 function SearchBar() {
   return (
-    <div>SearchBar</div>
+    <>
+      <form id="search-form">
+        <input type="text" id="search-bar" placeholder='Search'></input>
+      </form>
+    </>
   )
 }
 

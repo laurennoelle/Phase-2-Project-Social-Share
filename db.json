@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "some@email.com",
+      "username": "johndoe",
+      "password": "password1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthdayMonth": "may",
+      "birthdayDay": 15,
+      "birthdayYear": 1980,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "friends": [
+        {
+          "friendUsername": "homersimpson",
+          "requestSent": false,
+          "requestRecieved": false,
+          "currentFriend": true
+        }
+      ],
+      "posts": [
+        {
+          "postTitle": "Post title for first post",
+          "postBody": "This is some stuff that would go into a post",
+          "postDate": "7/13/2022"
+        },
+        {
+          "postTitle": "Post title for second post",
+          "postBody": "This is more stuff that would probably go into a post",
+          "postDate": "7/13/2022"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "another@email.com",
+      "username": "homersimpson",
+      "password": "password1",
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "birthdayMonth": "feb",
+      "birthdayDay": 25,
+      "birthdayYear": 1984,
+      "avatar": "https://static.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20201222215437",
+      "friends": [
+        {
+          "friendUsername": "johndoe",
+          "requestSent": false,
+          "requestRecieved": false,
+          "currentFriend": true
+        }
+      ],
+      "posts": [
+        {
+          "postTitle": "This post was made by Homer",
+          "postBody": "I love doughnuts, like seriously...",
+          "postDate": "7/13/2022"
+        },
+        {
+          "postTitle": "Life in Springfield is just okay",
+          "postBody": "Too bad I have to work at the power plant",
+          "postDate": "7/13/2022"
+        }
+      ]
+    },
+    {
+      "email": "sada@asdkj.com",
+      "username": "myusername",
+      "password": "password123",
+      "firstname": "Chris",
+      "lastname": "Babb",
+      "birthdayMonth": "",
+      "birthdayDay": "",
+      "birthdayYear": "",
+      "avatar": "http://asd.com/theimage.jpg",
+      "friends": [],
+      "posts": [],
+      "id": 3
+    },
+    {
+      "email": "test@test.com",
+      "username": "anotherusername",
+      "password": "password1",
+      "firstname": "Betty",
+      "lastname": "Boop",
+      "birthdayMonth": "mar",
+      "birthdayDay": "4",
+      "birthdayYear": "1926",
+      "avatar": "https://static.wikia.nocookie.net/simpsons/images/a/a7/Montgomery_Burns.png/revision/latest?cb=20210705202408",
+      "friends": [],
+      "posts": [],
+      "id": 4
+    },
+    {
+      "email": "test2@test.com",
+      "username": "another",
+      "password": "password1",
+      "firstname": "First",
+      "lastname": "Name",
+      "birthdayMonth": "mar",
+      "birthdayDay": "4",
+      "birthdayYear": "1903",
+      "avatar": "http://asda.com/image.png",
+      "friends": [],
+      "posts": [],
+      "id": 5
+    },
+    {
+      "email": "asdkj@aksjd.com",
+      "username": "ikjsad",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 6
+    },
+    {
+      "email": "assdkj@aksjd.com",
+      "username": "ikjsads",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 7
+    },
+    {
+      "email": "asssdkj@aksjd.com",
+      "username": "ikjsasds",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 8
+    },
+    {
+      "email": "asssdkj@aksjd.coma",
+      "username": "ikjsasdsa",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 9
+    },
+    {
+      "email": "asssdkj@aksjd.comaa",
+      "username": "ikjsasdsaa",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 10
+    },
+    {
+      "email": "asssdkj@aksjd.comaaa",
+      "username": "ikjsasdsaaa",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 11
+    },
+    {
+      "email": "asssdkj@aksjd.comaaaa",
+      "username": "ikjsasdsaaaa",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 12
+    },
+    {
+      "email": "asssdkj@aksjd.comaaaaa",
+      "username": "ikjsasdsaaaaa",
+      "password": "lkasjd",
+      "firstname": "laksjd",
+      "lastname": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 13
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  width: 100%;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,268 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+  color: #be81f7;
+}
+
+a:hover{
+  color: #9830f7;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #be81f7;
+  border-color: #be81f7;
+}
+
+.btn-primary:hover{
+  background-color: #9830f7;
+  border-color: #9830f7;  
+}
+
+.container{
+  width: 1200px;
+}
+
+#header{
+  border-bottom: solid 1px gray;
+}
+
+#main-container-login{
+  padding-top: 20px;
+  min-height: 650px;
+  background-image: url("./images/main-background.jpeg");
+}
+
+/* Login Form Styling */
+
+#hero-logo{
+  width: 450px;
+}
+
+#login-page-left{
+  padding: 120px 0px 0px 0px;
+}
+
+#login-page-right{
+  text-align: left;
+  padding: 80px 40px 20px 40px;
+}
+
+#login-form{
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: .5em;
+}
+
+#login-form-header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#login-form .input-group-text{
+  padding: 0.615rem 0.75rem;
+}
+
+.form-username, .form-checkbox{
+  margin-bottom: 25px;
+}
+
+.form-submit-button{
+  text-align: center;
+}
+
+#bottom-of-login-form{
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#no-account{
+  margin-top: 25px;
+}
+
+#no-account p{
+  margin-bottom: 0px;
+}
+
+#checkbox_0{
+  margin-right: 5px;
+}
+
+.form-checkbox{
+  margin-top: 10px;
+}
+
+/* END Login Form Styling */
+
+/* Registration Form Styling */
+
+#main-container-register{
+  padding-top: 20px;
+  min-height: 850px;
+  background-color: darkgray;
+}
+
+#register-form{
+  background-color: white;
+  padding: 25px;
+  border-radius: .5em;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#register-form .form-group{
+  margin-bottom: 15px;
+}
+
+#register-form-header{
+  margin-bottom: 15px;
+}
+
+/* End Registration Form Styling */
+
+/* Profile Form Styling */
+
+#main-container-profile{
+  padding-top: 20px;
+  min-height: 750px;
+  background-color: darkgray;
+}
+
+#profile-form{
+  background-color: white;
+  padding: 25px;
+  border-radius: .5em;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#profile-form .form-group{
+  margin-bottom: 15px;
+}
+
+#profile-form-header{
+  margin-bottom: 15px;
+}
+
+/* End Profile Form Styling */
+
+#ss-top-left{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#avatar-img{
+  width: 150px;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6em;
+}
+
+#ss-bottom-left{
+  text-align: center;
+  padding-top: 25px;
+}
+
+#ss-bottom-right{
+  padding-top: 25px;
+}
+
+#ss-bottom-right h4{
+  margin-left: 10px;
+}
+
+#friends-container, #posts-container {
+  border: solid 1px lightgray;
+  padding: 20px;
+  border-radius: .5em;
+}
+
+.friend-wrapper{
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px lightgray;
+}
+
+.friend-wrapper img{
+  max-width: 100%;
+  border-radius: 6em;
+}
+
+#friends-container {
+  text-align: left;
+}
+
+#site-logo{
+  width: 250px;
+}
+
+#search-bar{
+  margin-top: 35px;
+}
+
+.friend-list-name{
+  margin-bottom: 5px;
+}
+
+.friend-list-right{
+  margin-left: 20px;
+}
+
+#ss-top-right{
+  position: relative;
+}
+
+#ss-name{
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+#search-form input{
+  margin-top: 0px;
+  width: 50%;
+  border-radius: .5em;
+  border-color: lightgray;
+}
+
+#ss-bottom-right{
+  position: relative;
+}
+
+#ss-bottom-right h4{
+  display: inline-block;
+}
+
+#new-post-button{
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  display: inline-block;
+}
+
+.post-avatar{
+  max-width: 100%;
+  border-radius: 6em;
+}
+
+.profile-post{
+  border-bottom: solid 1px lightgray;
+  margin-bottom: 20px;
+}
+.profile-post .row h4{
+  margin-left: 0px !important;
+}
+
+.post-sub{
+  color: #be81f7;
 }
