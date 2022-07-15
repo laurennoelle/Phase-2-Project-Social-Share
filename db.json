@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "some@email.com",
+      "username": "johndoe",
+      "password": "password1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthdayMonth": "may",
+      "birthdayDay": 15,
+      "birthdayYear": 1980,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "friends": [
+        {
+          "username": "homersimpson",
+          "firstName": "Homer",
+          "lastName": "Simpson",
+          "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
+          "currentFriend": true
+        }
+      ],
+      "posts": [
+        {
+          "postTitle": "test",
+          "postBody": "test",
+          "postDate": "7/14/2022"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "email": "another@email.com",
+      "username": "homersimpson",
+      "password": "password1",
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "birthdayMonth": "feb",
+      "birthdayDay": 25,
+      "birthdayYear": 1984,
+      "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
+      "friends": [
+        {
+          "username": "johndoe",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+          "currentFriend": true
+        },
+        {
+          "username": "maggiesimpson",
+          "firstName": "Maggie",
+          "lastName": "Simpson",
+          "avatar": "https://i.discogs.com/OCEI91oQOkbvLbA5f1rUpLSsjO_GQ38oyNataTCbJ7g/rs:fit/g:sm/q:90/h:514/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI2MzMx/MjktMTQyMzQxNDg4/NC02Nzc5LmpwZWc.jpeg",
+          "currentFriend": true
+        }
+      ],
+      "posts": [
+        {
+          "postTitle": "This post was made by Homer",
+          "postBody": "I love doughnuts, like seriously...",
+          "postDate": "7/13/2022"
+        },
+        {
+          "postTitle": "Life in Springfield is just okay",
+          "postBody": "Too bad I have to work at the power plant",
+          "postDate": "7/13/2022"
+        }
+      ]
+    },
+    {
+      "email": "third@email.com",
+      "username": "maggiesimpson",
+      "password": "password123",
+      "firstName": "Maggie",
+      "lastName": "Simpson",
+      "birthdayMonth": "",
+      "birthdayDay": "",
+      "birthdayYear": "",
+      "avatar": "https://i.discogs.com/OCEI91oQOkbvLbA5f1rUpLSsjO_GQ38oyNataTCbJ7g/rs:fit/g:sm/q:90/h:514/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI2MzMx/MjktMTQyMzQxNDg4/NC02Nzc5LmpwZWc.jpeg",
+      "friends": [
+        {
+          "username": "homersimpson",
+          "firstName": "Homer",
+          "lastName": "Simpson",
+          "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
+          "currentFriend": true
+        }
+      ],
+      "posts": [],
+      "id": 3
+    },
+    {
+      "email": "test@test.com",
+      "username": "anotherusername",
+      "password": "password1",
+      "firstName": "Betty",
+      "lastName": "Boop",
+      "birthdayMonth": "mar",
+      "birthdayDay": "4",
+      "birthdayYear": "1926",
+      "avatar": "https://static.wikia.nocookie.net/simpsons/images/a/a7/Montgomery_Burns.png/revision/latest?cb=20210705202408",
+      "friends": [],
+      "posts": [],
+      "id": 4
+    },
+    {
+      "email": "test2@test.com",
+      "username": "another",
+      "password": "password1",
+      "firstName": "First",
+      "lastName": "Name",
+      "birthdayMonth": "mar",
+      "birthdayDay": "4",
+      "birthdayYear": "1903",
+      "avatar": "http://asda.com/image.png",
+      "friends": [],
+      "posts": [],
+      "id": 5
+    },
+    {
+      "email": "asdkj@aksjd.com",
+      "username": "ikjsad",
+      "password": "lkasjd",
+      "firstName": "laksjd",
+      "lastName": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 6
+    },
+    {
+      "email": "assdkj@aksjd.com",
+      "username": "ikjsads",
+      "password": "lkasjd",
+      "firstName": "laksjd",
+      "lastName": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 7
+    },
+    {
+      "email": "asssdkj@aksjd.com",
+      "username": "ikjsasds",
+      "password": "lkasjd",
+      "firstName": "laksjd",
+      "lastName": "alskdj",
+      "birthdayMonth": "mar",
+      "birthdayDay": "3",
+      "birthdayYear": "1902",
+      "avatar": "asd",
+      "friends": [],
+      "posts": [],
+      "id": 8
+    }
+  ]
+}

@@ -1,24 +1,36 @@
 import Header from './components/Header';
-import MainContainer from './components/MainContainer';
-import './App.css';
+import Login from './components/Login';
+import React, { useEffect } from 'react';
+import { useRecoilState } from 'recoil';
+import { database, isUserLoggedIn } from './atoms'
+import { useNavigate } from 'react-router-dom'
+
 
 function App() {
+
+  const [databaseContents, setDatabaseContents] = useRecoilState(database);
+  const [loggedIn, setLoggedIn] = useRecoilState(isUserLoggedIn);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if(loggedIn === true){
+        navigate('/ss');
+    }
+  }, [])
+
+  useEffect(() => {
+    fetch("http://localhost:3001/users")
+      .then((r) => r.json())
+      .then((data) => setDatabaseContents(data));
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <Login />
+        <footer>
+      </footer>
     </div>
   );
 }
