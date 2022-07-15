@@ -13,22 +13,18 @@
       "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
       "friends": [
         {
-          "friendUsername": "homersimpson",
-          "requestSent": false,
-          "requestRecieved": false,
+          "username": "homersimpson",
+          "firstName": "Homer",
+          "lastName": "Simpson",
+          "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
           "currentFriend": true
         }
       ],
       "posts": [
         {
-          "postTitle": "Post title for first post",
-          "postBody": "This is some stuff that would go into a post",
-          "postDate": "7/13/2022"
-        },
-        {
-          "postTitle": "Post title for second post",
-          "postBody": "This is more stuff that would probably go into a post",
-          "postDate": "7/13/2022"
+          "postTitle": "test",
+          "postBody": "test",
+          "postDate": "7/14/2022"
         }
       ]
     },
@@ -42,12 +38,20 @@
       "birthdayMonth": "feb",
       "birthdayDay": 25,
       "birthdayYear": 1984,
-      "avatar": "https://static.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest?cb=20201222215437",
+      "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
       "friends": [
         {
-          "friendUsername": "johndoe",
-          "requestSent": false,
-          "requestRecieved": false,
+          "username": "johndoe",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+          "currentFriend": true
+        },
+        {
+          "username": "maggiesimpson",
+          "firstName": "Maggie",
+          "lastName": "Simpson",
+          "avatar": "https://i.discogs.com/OCEI91oQOkbvLbA5f1rUpLSsjO_GQ38oyNataTCbJ7g/rs:fit/g:sm/q:90/h:514/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI2MzMx/MjktMTQyMzQxNDg4/NC02Nzc5LmpwZWc.jpeg",
           "currentFriend": true
         }
       ],
@@ -65,16 +69,24 @@
       ]
     },
     {
-      "email": "sada@asdkj.com",
-      "username": "myusername",
+      "email": "third@email.com",
+      "username": "maggiesimpson",
       "password": "password123",
-      "firstname": "Chris",
-      "lastname": "Babb",
+      "firstName": "Maggie",
+      "lastName": "Simpson",
       "birthdayMonth": "",
       "birthdayDay": "",
       "birthdayYear": "",
-      "avatar": "http://asd.com/theimage.jpg",
-      "friends": [],
+      "avatar": "https://i.discogs.com/OCEI91oQOkbvLbA5f1rUpLSsjO_GQ38oyNataTCbJ7g/rs:fit/g:sm/q:90/h:514/w:550/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI2MzMx/MjktMTQyMzQxNDg4/NC02Nzc5LmpwZWc.jpeg",
+      "friends": [
+        {
+          "username": "homersimpson",
+          "firstName": "Homer",
+          "lastName": "Simpson",
+          "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
+          "currentFriend": true
+        }
+      ],
       "posts": [],
       "id": 3
     },
@@ -82,8 +94,8 @@
       "email": "test@test.com",
       "username": "anotherusername",
       "password": "password1",
-      "firstname": "Betty",
-      "lastname": "Boop",
+      "firstName": "Betty",
+      "lastName": "Boop",
       "birthdayMonth": "mar",
       "birthdayDay": "4",
       "birthdayYear": "1926",
@@ -96,8 +108,8 @@
       "email": "test2@test.com",
       "username": "another",
       "password": "password1",
-      "firstname": "First",
-      "lastname": "Name",
+      "firstName": "First",
+      "lastName": "Name",
       "birthdayMonth": "mar",
       "birthdayDay": "4",
       "birthdayYear": "1903",
@@ -110,8 +122,8 @@
       "email": "asdkj@aksjd.com",
       "username": "ikjsad",
       "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
+      "firstName": "laksjd",
+      "lastName": "alskdj",
       "birthdayMonth": "mar",
       "birthdayDay": "3",
       "birthdayYear": "1902",
@@ -124,8 +136,8 @@
       "email": "assdkj@aksjd.com",
       "username": "ikjsads",
       "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
+      "firstName": "laksjd",
+      "lastName": "alskdj",
       "birthdayMonth": "mar",
       "birthdayDay": "3",
       "birthdayYear": "1902",
@@ -138,8 +150,8 @@
       "email": "asssdkj@aksjd.com",
       "username": "ikjsasds",
       "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
+      "firstName": "laksjd",
+      "lastName": "alskdj",
       "birthdayMonth": "mar",
       "birthdayDay": "3",
       "birthdayYear": "1902",
@@ -147,76 +159,6 @@
       "friends": [],
       "posts": [],
       "id": 8
-    },
-    {
-      "email": "asssdkj@aksjd.coma",
-      "username": "ikjsasdsa",
-      "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
-      "birthdayMonth": "mar",
-      "birthdayDay": "3",
-      "birthdayYear": "1902",
-      "avatar": "asd",
-      "friends": [],
-      "posts": [],
-      "id": 9
-    },
-    {
-      "email": "asssdkj@aksjd.comaa",
-      "username": "ikjsasdsaa",
-      "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
-      "birthdayMonth": "mar",
-      "birthdayDay": "3",
-      "birthdayYear": "1902",
-      "avatar": "asd",
-      "friends": [],
-      "posts": [],
-      "id": 10
-    },
-    {
-      "email": "asssdkj@aksjd.comaaa",
-      "username": "ikjsasdsaaa",
-      "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
-      "birthdayMonth": "mar",
-      "birthdayDay": "3",
-      "birthdayYear": "1902",
-      "avatar": "asd",
-      "friends": [],
-      "posts": [],
-      "id": 11
-    },
-    {
-      "email": "asssdkj@aksjd.comaaaa",
-      "username": "ikjsasdsaaaa",
-      "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
-      "birthdayMonth": "mar",
-      "birthdayDay": "3",
-      "birthdayYear": "1902",
-      "avatar": "asd",
-      "friends": [],
-      "posts": [],
-      "id": 12
-    },
-    {
-      "email": "asssdkj@aksjd.comaaaaa",
-      "username": "ikjsasdsaaaaa",
-      "password": "lkasjd",
-      "firstname": "laksjd",
-      "lastname": "alskdj",
-      "birthdayMonth": "mar",
-      "birthdayDay": "3",
-      "birthdayYear": "1902",
-      "avatar": "asd",
-      "friends": [],
-      "posts": [],
-      "id": 13
     }
   ]
 }

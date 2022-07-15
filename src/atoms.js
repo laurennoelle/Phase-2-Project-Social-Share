@@ -5,13 +5,38 @@ export const database = atom({
     default: []
 })
 
+export const makeNewFriend = atom({
+    key: 'newFriend',
+    default: ""
+})
+
+export const makeNewPostTitle = atom({
+    key: 'newPostTitle',
+    default: ""
+})
+
+export const makeNewPostContent = atom({
+    key: 'makeNewPostContent',
+    default: ""
+})
+
+export const currentFriends = atom({
+    key: 'currentFriends',
+    default: []
+})
+
+export const postFeed = atom({
+    key: 'postFeed',
+    default: []
+})
+
 export const loginUserUsername = atom({
-    key: 'myUserUsername',
+    key: 'myLoginUserUsername',
     default: ''
 })
 
 export const loginUserPassword = atom({
-    key: 'myPassword',
+    key: 'myLoginPassword',
     default: ''
 })
 

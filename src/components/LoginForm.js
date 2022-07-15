@@ -25,6 +25,8 @@ function LoginForm() {
     console.log(databaseContents)
     const checkLogIn = databaseContents.filter((user) => user.username.toLowerCase() === theUserUsername.toLowerCase() && user.password === theUserPassword)
     if(checkLogIn.length > 0){
+      setTheUser(checkLogIn[0].username);
+      setTheUserObject(checkLogIn[0]);
       setLoggedIn(true);
       navigate('/ss');
     }
