@@ -27,11 +27,11 @@ function SocialShare(){
         navigate('/');
     }
 
-        const currentPosts = [];
+    let currentPosts = [];
     if(theUserObject.posts.length > 0){
         currentPosts = theUserObject.posts.map(post => post);
     }
-    const currentFriends = [];
+    let currentFriends = [];
     if(theUserObject.friends.length > 0){
         currentFriends = theUserObject.friends.map(friend => friend);
     }

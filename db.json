@@ -18,6 +18,13 @@
           "lastName": "Simpson",
           "avatar": "https://www.onthisday.com/images/people/homer-simpson-medium.jpg",
           "currentFriend": true
+        },
+        {
+          "username": "anotherusername",
+          "firstName": "Betty",
+          "lastName": "Boop",
+          "avatar": "https://static.wikia.nocookie.net/simpsons/images/a/a7/Montgomery_Burns.png/revision/latest?cb=20210705202408",
+          "currentFriend": true
         }
       ],
       "posts": [
@@ -106,8 +113,22 @@
       "birthdayDay": "4",
       "birthdayYear": "1926",
       "avatar": "https://static.wikia.nocookie.net/simpsons/images/a/a7/Montgomery_Burns.png/revision/latest?cb=20210705202408",
-      "friends": [],
-      "posts": [],
+      "friends": [
+        {
+          "username": "johndoe",
+          "firstName": "John",
+          "lastName": "Doe",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+          "currentFriend": true
+        }
+      ],
+      "posts": [
+        {
+          "postTitle": "Some Title",
+          "postBody": "Some post",
+          "postDate": "7/15/2022"
+        }
+      ],
       "id": 4
     },
     {
