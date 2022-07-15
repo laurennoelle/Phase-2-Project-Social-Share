@@ -87,7 +87,13 @@
           "currentFriend": true
         }
       ],
-      "posts": [],
+      "posts": [
+        {
+          "postTitle": "Maggie's first word",
+          "postBody": "Mama Dada goo goo ga ga",
+          "postDate": "7/14/2022"
+        }
+      ],
       "id": 3
     },
     {
@@ -159,6 +165,20 @@
       "friends": [],
       "posts": [],
       "id": 8
+    },
+    {
+      "email": "aslkdj@askdj.com",
+      "username": "skjdh",
+      "password": "oiaush",
+      "firstName": "siodh",
+      "lastName": "oaishd",
+      "birthdayMonth": "apr",
+      "birthdayDay": "4",
+      "birthdayYear": "1903",
+      "avatar": "https://openpsychometrics.org/tests/characters/test-resources/pics/S/2.jpg",
+      "friends": [],
+      "posts": [],
+      "id": 9
     }
   ]
 }

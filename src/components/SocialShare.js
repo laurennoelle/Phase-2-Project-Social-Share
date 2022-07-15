@@ -27,8 +27,14 @@ function SocialShare(){
         navigate('/');
     }
 
-    const currentPosts = theUserObject.posts.map(post => post);
-    const currentFriends = theUserObject.friends.map(friend => friend);
+        const currentPosts = [];
+    if(theUserObject.posts.length > 0){
+        currentPosts = theUserObject.posts.map(post => post);
+    }
+    const currentFriends = [];
+    if(theUserObject.friends.length > 0){
+        currentFriends = theUserObject.friends.map(friend => friend);
+    }
 
     function createNewPost(e){
         e.preventDefault();
