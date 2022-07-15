@@ -39,7 +39,7 @@ function RegisterForm(){
             setTheUserObject(databaseContents.filter((user) => user.username === theUser));
             navigate('/ss');
           }
-    }, [theUser])
+    }, [loggedIn])
 
     const createNewUser = (e) => {
         e.preventDefault();
